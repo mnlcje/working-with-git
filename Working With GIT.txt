@@ -51,6 +51,19 @@ Adding Source to GIT for first time
 1.create a repo in github and copy the url
 
 2.Navigate to source folder 
+create a .gitignore file (https://cmatskas.com/create-gitignore-and-other-hidden-files-on-windows/)
+[
+cd c:\<your path>  
+notepad .gitignore  
+
+Ignore the below files :
+
+node_modules/
+.vscode/
+package-lock.json
+dist/
+
+]
 git init
 git add .
 git commit -m "changes"
