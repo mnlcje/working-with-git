@@ -1,0 +1,63 @@
+URL : https://github.com/
+
+UserName : mnkcje2050@gmail.com
+Pwd : mnk@Aug2019
+
+
+Getting source from GIT
+-------------------------------------------
+-------------------------------------------
+1.First time
+-----------------
+In VS  code go to the specified folder and type in terminal :
+
+git clone <source url>
+install all the dependencies : npm install
+npm run start
+
+
+2.Second time
+------------------
+In VS code type :
+
+git pull origin <branch name>
+install all the dependencies : npm install
+npm run start
+
+
+Pushing changes into GIT
+------------------------------------------
+------------------------------------------
+git add <<file name>>
+git commit -m "change message"
+git push origin master
+
+To push more than one file :
+
+git add .
+git commit -m "change message"
+git push origin master
+
+[
+Ensure that .gitignore file has the below files to be ignored:
+node_modules/
+.vscode/
+package-lock.json
+]
+
+
+Adding Source to GIT for first time
+================================
+1.create a repo in github and copy the url
+
+2.Navigate to source folder 
+git init
+git add .
+git commit -m "changes"
+git remote add origin <<repo url from step1>>
+git push origin  master
+
+
+
+
+https://rubygarage.org/blog/most-basic-git-commands-with-examples
